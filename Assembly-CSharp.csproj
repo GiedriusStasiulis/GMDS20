@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\LaunchBallController.cs" />
+     <Compile Include="Assets\LaunchBallTrigger.cs" />
      <Compile Include="Assets\MyScripts\AddForceToBall.cs" />
      <Compile Include="Assets\MyScripts\BallController.cs" />
      <Compile Include="Assets\MyScripts\BankShotController.cs" />
@@ -43,6 +45,10 @@
      <Compile Include="Assets\MyScripts\BridgeBallAccelerator.cs" />
      <Compile Include="Assets\MyScripts\DestroyBall.cs" />
      <Compile Include="Assets\MyScripts\FlipperController.cs" />
+     <Compile Include="Assets\MyScripts\GameController.cs" />
+     <Compile Include="Assets\MyScripts\GameManager.cs" />
+     <Compile Include="Assets\MyScripts\GateController.cs" />
+     <Compile Include="Assets\MyScripts\Gate_Trigger.cs" />
      <Compile Include="Assets\MyScripts\PopBumperController.cs" />
      <Compile Include="Assets\MyScripts\SlingshotController.cs" />
      <Compile Include="Assets\MyScripts\Slingshot_Trigger.cs" />
