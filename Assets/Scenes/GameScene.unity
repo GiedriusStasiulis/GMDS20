@@ -10725,7 +10725,7 @@ MonoBehaviour:
   ballRb: {fileID: 0}
   ballExited: 0
   gameReset: 0
-  forceAmount: 10
+  forceAmount: 11
 --- !u!4 &4338332425392479843
 Transform:
   m_ObjectHideFlags: 0
