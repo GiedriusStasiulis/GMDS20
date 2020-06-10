@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 20 - Polished Aluminum
-    second: {fileID: 2100000, guid: bd3e7a18dfdd18946936ad6a0dd06f48, type: 2}
+    second: {fileID: 2100000, guid: 447bf3f5570fc1b4f88b2c82541ba05c, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -85,7 +85,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.02
+    globalScale: 2
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
