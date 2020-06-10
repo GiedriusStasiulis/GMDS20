@@ -15,6 +15,8 @@ public class SlingshotController : MonoBehaviour
 
     public bool invertedAxis;
 
+    public AudioSource audioSrc;
+
     void Start()
     {
         slingshotCollider = this.transform.GetChild(1);
@@ -43,6 +45,7 @@ public class SlingshotController : MonoBehaviour
                 if(invertedAxis)
                 {
                     slingshotCollider.transform.Translate(Vector3.forward * Time.deltaTime * speed);
+                    audioSrc.Play();
                 }
 
                 else

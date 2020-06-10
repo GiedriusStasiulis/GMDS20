@@ -8,6 +8,8 @@ public class PopBumperController : MonoBehaviour
     public float yPos;
     private Transform bumperFlange;
     private int bumperFlangeState;
+
+    public AudioSource audioSrc;
     
     private void OnTriggerEnter(Collider other)
     {
@@ -28,7 +30,7 @@ public class PopBumperController : MonoBehaviour
 
         if (yPos < minPos)	
         {
-            bumperFlangeState = 2;
+            bumperFlangeState = 2;            
         }
 
         if (yPos > maxPos && bumperFlangeState == 2)
@@ -41,6 +43,7 @@ public class PopBumperController : MonoBehaviour
             case 1:
                 //Go down
                 bumperFlange.transform.Translate(Vector3.back * Time.deltaTime * speed);
+                audioSrc.Play();
                 break;
         
             case 2:
